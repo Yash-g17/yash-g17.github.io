@@ -82,3 +82,10 @@ a.btn:hover
     box-shadow: 10px 10px 20px #001e3d;
     transition: 0.3s;
 }
+
+.universal-text{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+}
