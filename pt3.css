@@ -54,6 +54,10 @@
     font-weight: 600;
     
 }
+#boot2 a:hover{
+    color:#002244;
+
+}
 
 #boot h2{
     font-family: 'raleway';
@@ -85,15 +89,26 @@ a.btn:hover{
 }
 
 .card-body{
-    background-color: #003366;
+    background-color: transparent;
     
 }
 
-.btn-primary{
-    margin: 20px;
-    background-color: #5072A7;
-    border: 2px solid #001e3d;
+.btn-secondary{
+    padding: 15px;
+    font-size: 15px;
     
+    border: 1.5px solid #F0F8FF;
+    
+    background-color: transparent;
+    color: #F0F8FF;
+    
+}
+.btn-secondary:hover{
+    background: transparent;
+    border: none;
+    color:#F0F8FF;
+    box-shadow: 10px 10px 20px #002244;
+    transition: 0.3s;
 }
 
 .noteCard{
