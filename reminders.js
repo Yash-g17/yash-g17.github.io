@@ -16,26 +16,33 @@ const reminderForm = document.querySelector("#reminder-form");
 const remindersDisplay = document.querySelector("#reminders-display");
 const COURSE = remindersDisplay.getAttribute("course");
 
-// ! TODO: Add all courses
-const BASE_REMINDERS_OBJ = {
+const BASE_OBJ = {
 	CSF111: [],
-	EEEF111: [],
+	MATHF112: [],
 	MATHF113: [],
-	MATHF112: []
+	EEEF111: [],
+	PHYF111: [],
+	BITSF110: [],
+	BITSF111: [],
+	BITSF112: [],
+	PHYF110: [],
+	CHEMF110: [],
+	BIOF110: [],
+	MEF110: []
 };
 
 /* 
 	Returns the JSON form of the reminders object from localStorage.
-	If the reminders object does not exist, it is created using BASE_REMINDERS_OBJ.
+	If the reminders object does not exist, it is created using BASE_OBJ.
 */
 const getRemindersObj = () => {
-	if (!localStorage.reminders) storeRemindersObj(BASE_REMINDERS_OBJ);
+	if (!localStorage.reminders) storeRemindersObj(BASE_OBJ);
 	return JSON.parse(localStorage.getItem("reminders"));
 };
 
 /* 
 	Receives the reminders object, and puts it into localStorage.
-	The reminderDisplay must also be refreshed.
+	The remindersDisplay must also be refreshed.
 */
 const storeRemindersObj = (reminders) => {
 	localStorage.setItem("reminders", JSON.stringify(reminders));
@@ -89,14 +96,14 @@ const areRemindersDue = () => {
 
 	courseReminders.forEach((reminder) => {
 		if (Date.now() >= Date.parse(`${reminder.date} ${reminder.time}`)) {
-			// ! TODO: Add class that makes reminder go red.
+			// TODO: Add class that makes reminder go red.
 			// document.getElementById(reminder.key).classList.add("");
 		}
 	});
 };
 
 /* 
-	Refreshes the reminderDisplay by:
+	Refreshes the remindersDisplay by:
 	1. Clearing it.
 	2. Generating the html for each of the reminders present in the appropriate course of the reminders object. 
 	3. Checks if reminders are due.
