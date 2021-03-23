@@ -6,41 +6,43 @@
     background-attachment: fixed;
 }
 
-.navbar{
-    background-color: rgb(45, 46, 66
+.navbar
+{   
     position: relative;
-    
 }
 
-.navbar-brand{
+.navbar-brand
+{
     color: #99adc1;
     font-weight: bold;
 }
 
 
-.navbar-toggler-icon{
+.navbar-toggler-icon
+{
     font-size: 20px;
     color: #99adc1;
     background: color #003366;
 }
 
-.nav-item{
+.nav-item
+{
     display: inline-block;
     margin: 10px;
     margin: 0 5px;
     
 }
 
-.nav-link{
+.nav-link
+{
     color: #99adc1;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
-    
-    
 }
 
-.nav-link:hover{
+.nav-link:hover
+{
     background: #003366;
     border: none;
     color: #001e3d;
@@ -48,29 +50,31 @@
     transition: 0.3s;
 }
 
-#boot h1{
+#boot h1
+{
     font-family: 'raleway';
     font-size: 60px;
-    font-weight: 600;
-    
+    font-weight: 600;   
 }
 
-#boot h2{
+#boot h2
+{
     font-family: 'raleway';
     font-size: 40px;
     font-weight: 200;
 }
 
-a.btn {
+a.btn 
+{
     padding: 50px;
-    margin: 40px;
-   
+    margin: 40px; 
     font-size: 30px;
     border: 2.5px solid #001e3d;
     color: #001e3d;
 }
 
-a.btn:hover{
+a.btn:hover
+{
     background: transparent;
     border: none;
     color:#001e3d;
