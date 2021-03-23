@@ -1,9 +1,9 @@
 #override3
 {
-    background: radial-gradient(#99adc1, #001e3d);
+    background: linear-gradient(to bottom, #001e3d 0%, #99adc1 100%);
     font-family: 'raleway';
     color: #001e3d;
-    background-attachment: fixed;
+    background-attachment: fixed;  
 }
 
 #override3 h1

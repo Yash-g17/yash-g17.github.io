@@ -1,6 +1,6 @@
 #grad 
 {
-    background: radial-gradient(#99adc1, #001e3d);
+    background: linear-gradient( #001e3d, #99adc1 );
     font-family: 'raleway';
     color: #001e3d;
     background-attachment: fixed;
