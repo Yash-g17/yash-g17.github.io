@@ -6,9 +6,10 @@
     background-attachment: fixed;
 }
 
-.navbar
-{   
+.navbar{
     position: relative;
+    
+    
 }
 
 .navbar-brand
