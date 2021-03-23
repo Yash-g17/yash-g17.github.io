@@ -1,6 +1,6 @@
 #override3
 {
-    background: linear-gradient(to bottom, #001e3d 0%, #99adc1 100%);
+    background: linear-gradient(to bottom, #002244 0%, #5072A7 100%);
     font-family: 'raleway';
     color: #001e3d;
     background-attachment: fixed;  
@@ -10,30 +10,30 @@
 {  
     font-size: 60px;
     font-weight: 600;
-    color: #99adc1;
+    color: #F0F8FF;
 }
 
 #override3 h2
 {   
     
     font-weight: 200;
-    color: #99adc1;
+    color: #F0F8FF;
 }
 
 a.btn 
 {   
     min-width: 8em;
     font-size: 2.3em;
-    border: 2.5px solid #001e3d;
+    border: 2.5px solid #5072A7;
     margin: 0.25em;
-    color: #001e3d;
+    color: #F0F8FF;
 }
 
 a.btn:hover
 {
     background: transparent;
     border: none;
-    color:#001e3d;
-    box-shadow: 10px 10px 20px #001e3d;
+    color:#F0F8FF;
+    box-shadow: 10px 10px 20px #002244;
     transition: 0.3s;
 }
