@@ -1,20 +1,61 @@
-#grad 
+#boot
 {
-    background: radial-gradient(#99adc1, #001e3d);
-    height: 100%;
-    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, #001e3d 0%, #99adc1 100%);
     font-family: 'raleway';
-    color: #001e3d;
+    color: #99adc1;
+    background-attachment: fixed;
 }
 
-#grad h1{
+.navbar{
+    background-color: rgb(45, 46, 66
+    position: relative;
+    
+}
+
+.navbar-brand{
+    color: #99adc1;
+    font-weight: bold;
+}
+
+
+.navbar-toggler-icon{
+    font-size: 20px;
+    color: #99adc1;
+    background: color #003366;
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 10px;
+    margin: 0 5px;
+    
+}
+
+.nav-link{
+    color: #99adc1;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    
+    
+}
+
+.nav-link:hover{
+    background: #003366;
+    border: none;
+    color: #001e3d;
+    box-shadow: 5px 5px 10px #001e3d;
+    transition: 0.3s;
+}
+
+#boot h1{
     font-family: 'raleway';
     font-size: 60px;
     font-weight: 600;
     
 }
 
-#grad h2{
+#boot h2{
     font-family: 'raleway';
     font-size: 40px;
     font-weight: 200;

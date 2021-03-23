@@ -1,6 +1,6 @@
 #grad 
 {
-    background: linear-gradient( #001e3d, #99adc1 );
+    background: linear-gradient(to bottom, #001e3d 0%, #99adc1 100%);
     font-family: 'raleway';
     color: #001e3d;
     background-attachment: fixed;
@@ -25,9 +25,9 @@ a.btn
     padding: 40px;
     min-width: 5em;
     font-size: 4em;
-    border: 2.5px solid #001e3d;
+    border: 2.5px solid #99adc1;
     margin:0.25em;
-    color: #001e3d;
+    color: #99adc1;
 }
 
 a.btn:hover

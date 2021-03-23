@@ -6,20 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CSF111</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="pt3.css">
 </head>
 
-<body id="boot" style="background-color: cornflowerblue;">
-    <div class="p-3 mb-2 bg-dark">
-        <h1>Caboodle</h1>
-    </div>
+<body id="boot">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <a href="#" class="navbar-brand" style="color: #99adc1 ; margin: 20px; font-size: 30px;">Caboodle</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon">
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Handout</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Textbooks</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Meet Links</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#interests" class="nav-link">Lectures</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contactme" class="nav-link"></a>
+                </li>
+            </ul>
+        </div>
 
+    </nav>
+    <div class="p-3 mb-2">
+        <!--h1 class="text-center">Caboodle</h1-->
+    </div>
+    
     <div class="container">
         <div class="row">
             <div class="col-6">
 
                 <div class="jumbotron">
-                    <h1 class="display-4" style="color:#282828">Handout</h1>
+                    <h1 class="display-4">Handout</h1>
                     <hr class="my-4">
                     <p class="lead">
                         <a class="btn btn-outline-light btn-lg" href="#" role="button">Click Here</a>
@@ -29,7 +58,7 @@
             <div class="col-6">
 
                 <div class="jumbotron">
-                    <h1 class="display-4" style="color:#282828">Textbook</h1>
+                    <h1 class="display-4">Textbook</h1>
                     <hr class="my-4">
                     <p class="lead">
                         <a class="btn btn-outline-light btn-lg" href="#" role="button">Click Here</a>
@@ -37,15 +66,10 @@
                 </div>
             </div>
 
-            <!--  <div class="col-5">
-                <h1 class="display-4" style="color:#282828">Notes</h1>
-
--->
-
             <div class="row">
                 <div class="col-6">
                     <div class="jumbotron">
-                        <h1 class="display-4" style="color:#282828">Meet Link</h1>
+                        <h1 class="display-4">Meet Link</h1>
                         <hr class="my-4">
                         <p class="lead">
                             <a class="btn btn-outline-light btn-lg" href="#" role="button">Click Here</a>
@@ -54,7 +78,7 @@
                 </div>
                 <div class="col-6">
                     <div class="jumbotron">
-                        <h1 class="display-4" style="color:#282828">Video Lectures</h1>
+                        <h1 class="display-4">Lectures</h1>
                         <hr class="my-4">
                         <p class="lead">
                             <a class="btn btn-outline-light btn-lg" href="#" role="button">Click Here</a>
@@ -69,7 +93,7 @@
         <div class="row">
             <div class="col-6">
                 <div class="jumbotron">
-                    <h1 class="display-4" style="color:#282828">PYQs</h1>
+                    <h1 class="display-4">PYQs</h1>
                     <hr class="my-4">
                     <p class="lead">
                         <a class="btn btn-outline-light btn-lg" href="#" role="button">Click Here</a>
@@ -87,7 +111,7 @@
             <div class="row">
                 <div class="col-6">
                     <div class="jumbotron">
-                    <h1 class="display-4" style="color:#282828">Notes</h1>
+                    <h1 class="display-4" style="color: #001e3d; margin: 20px;">Notes</h1>
                     <div class="container my-3">
                         <div class="card">
                           <div class="card-body">
@@ -99,7 +123,7 @@
                           </div>
                         </div>
                         <hr />
-                        <h1>Your Notes</h1>
+                        <h1 style="color: #001e3d;">Your Notes</h1>
                         <hr />
                         <div id="notes" class="row container-fluid"></div>
                       </div>
@@ -109,7 +133,7 @@
                     </div>
             </div>
             <div class="col-6">
-                <h1 class="display-4" style="color:#282828">Reminders</h1>
+                <h1 class="display-4" style="color: #001e3d; margin: 20px;">Reminders</h1>
                 <label>Reminder Title</label> </br> 
                  <input type="text"  > </br>
                   <label>Choose Date</label></br>
