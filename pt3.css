@@ -66,15 +66,15 @@ a.btn {
     margin: 40px;
    
     font-size: 30px;
-    border: 2.5px solid #001e3d;
-    color: #001e3d;
+    border: 2.5px solid #5072A7;
+    color: #F0F8FF;
 }
 
 a.btn:hover{
     background: transparent;
     border: none;
-    color:#001e3d;
-    box-shadow: 10px 10px 20px #001e3d;
+    color:#F0F8FF;
+    box-shadow: 10px 10px 20px #002244;
     transition: 0.3s;
 }
 
