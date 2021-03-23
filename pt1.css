@@ -10,14 +10,14 @@
 {  
     font-size: 60px;
     font-weight: 600;
-    color: #99adc1;
+    color: #F0F8FF;
 }
 
 #grad h2
 {   
     font-size: 40px;
     font-weight: 200;
-    color: #99adc1;
+    color: #F0F8FF;
 }
 
 a.btn 
@@ -25,16 +25,16 @@ a.btn
     padding: 40px;
     min-width: 5em;
     font-size: 4em;
-    border: 2.5px solid #99adc1;
+    border: 2.5px solid #5072A7;
     margin:0.25em;
-    color: #99adc1;
+    color: #F0F8FF;
 }
 
 a.btn:hover
 {
     background: transparent;
     border: none;
-    color:#001e3d;
-    box-shadow: 10px 10px 20px #001e3d;
+    color:#F0F8FF;
+    box-shadow: 10px 10px 20px #002244;
     transition: 0.3s;
 }

@@ -2,7 +2,7 @@
 {
     background: linear-gradient(to bottom, #002244 0%, #5072A7 100%);
     font-family: 'raleway';
-    color: #99adc1;
+    color: #F0F8FF;
     background-attachment: fixed;
 }
 
@@ -11,14 +11,14 @@
 }
 
 .navbar-brand{
-    color: #99adc1;
+    color: #F0F8FF;
     font-weight: bold;
 }
 
 
 .navbar-toggler-icon{
     font-size: 20px;
-    color: #99adc1;
+    color: #F0F8FF;
     background: color #003366;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .nav-link{
-    color: #99adc1;
+    color: #F0F8FF;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -79,5 +79,5 @@ a.btn:hover{
 .universal-text{
     font-size: 20px;
     text-decoration: none;
-    color: #99adc1;
+    color: #F0F8FF;
 }
