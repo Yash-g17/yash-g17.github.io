@@ -12,12 +12,11 @@
 	}
 */
 
-// Update to match UI.
 const reminderForm = document.querySelector("#reminder-form");
-const remindersDisplay = document.querySelector(".reminders-display");
-const COURSE = "CSF111"; // !!! TODO: Obtain from webpage
+const remindersDisplay = document.querySelector("#reminders-display");
+const COURSE = remindersDisplay.getAttribute("course");
 
-// !!! TODO: Add all courses
+// ! TODO: Add all courses
 const BASE_REMINDERS_OBJ = {
 	CSF111: [],
 	EEEF111: [],
@@ -53,7 +52,6 @@ const addReminder = function (e) {
 	const reminders = getRemindersObj(),
 		key = Math.random();
 
-	// Update to match UI. Do not remove the key, as the backend uses it.
 	const reminder = {
 		key,
 		title: this[0].value,
@@ -73,7 +71,7 @@ const removeReminder = function (e) {
 	e.preventDefault();
 
 	const reminders = getRemindersObj(),
-		key = this.parentElement.id; // Update to match UI.
+		key = this.parentElement.id;
 
 	reminders[COURSE] = reminders[COURSE].filter(
 		(reminder) => reminder.key != key
@@ -91,8 +89,8 @@ const areRemindersDue = () => {
 
 	courseReminders.forEach((reminder) => {
 		if (Date.now() >= Date.parse(`${reminder.date} ${reminder.time}`)) {
-			// Update to use UI. Add class that makes reminder go red or something.
-			document.getElementById(reminder.key).classList.add("");
+			// ! TODO: Add class that makes reminder go red.
+			// document.getElementById(reminder.key).classList.add("");
 		}
 	});
 };
@@ -108,13 +106,12 @@ const refreshRemindersDisplay = () => {
 	const courseReminders = getRemindersObj()[COURSE];
 	remindersDisplay.innerHTML = "";
 
-	// Update to match UI. Make sure to include the key as an id of the div of each reminder.
 	courseReminders.forEach((reminder) => {
 		const reminderHTML = `
 			<div id="${reminder.key}">
-				<h2>${reminder.title}</h2>
+				<h5>${reminder.title}</h5>
 				<p>Due on ${reminder.date} at ${reminder.time}</p>
-				<button class="reminder-delete">X</button>
+				<button class="reminder-delete">Delete</button>
 			</div>
 		`;
 		remindersDisplay.innerHTML += reminderHTML;
@@ -137,4 +134,4 @@ const msUntilNextMinute = 60000 - (new Date().getTime() % 60000);
 setTimeout(() => {
 	areRemindersDue();
 	setInterval(areRemindersDue, 60000);
-}, msUntilNextMinute + 1000);
+}, msUntilNextMinute + 500);

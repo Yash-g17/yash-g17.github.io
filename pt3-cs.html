@@ -124,19 +124,24 @@
                     <div class="col-6">
                         <h2 class="display-4">Reminders</h2>
                         <hr class="my-4">
-                        <label>Reminder Title</label> 
-                        </br> 
-                        <input type="text"  > </br>
-                        <label>Choose Date</label></br>
-                        <input type="date" ></br>
-                        <label>Set Time</label>
-                        </br>
-                        <input type="time" >
-                        </br>
-                        </br>
-                        <div class="container">                  
-                            <input type="submit" value="set" class="set"> 
-                        </div>
+						<form id="reminder-form">
+							<label>Reminder Title</label>
+							</br>
+							<input type="text"> </br>
+							<label>Choose Date</label></br>
+							<input type="date" ></br>
+							<label>Set Time</label>
+							</br>
+							<input type="time" >
+							</br>
+							</br>
+							<button type="submit">Set</button>	
+						</form>
+						
+						<!-- TODO: Update course attribute in each HTML course page -->
+						<div id="reminders-display" course="CSF111">
+							
+						</div>
                     </div>
                 </div>
                 <div class="row">
@@ -186,5 +191,6 @@
             crossorigin="anonymous"
         ></script>
         <script src="pt3.js"></script>
+		<script src="reminders.js"></script>
     </body>
 </html>
