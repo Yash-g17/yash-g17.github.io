@@ -3,6 +3,7 @@
     background: radial-gradient(#99adc1, #001e3d);
     font-family: 'raleway';
     color: #001e3d;
+    background-attachment: fixed;
 }
 
 #override3 h1
