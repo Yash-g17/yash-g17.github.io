@@ -6,7 +6,7 @@
     background-attachment: fixed;
 }
 .clean{
-    list-style: none;
+    list-style:square;
 }
 .navbar{
     position: relative;   
@@ -89,7 +89,7 @@ a.btn:hover{
 }
 
 .card-body{
-    background-color: transparent;
+    background: linear-gradient(to bottom, #002244 0%, #5072A7 100%);
     
 }
 
@@ -99,7 +99,7 @@ a.btn:hover{
     
     border: 1.5px solid #F0F8FF;
     
-    background-color: transparent;
+    background-color: #003366;
     color: #F0F8FF;
     
 }
@@ -115,3 +115,6 @@ a.btn:hover{
     background-color: #5072A7;
 }
 
+.card-shape{
+    min-width: 2em;
+}

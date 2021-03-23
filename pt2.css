@@ -21,8 +21,7 @@
 }
 
 a.btn 
-{   
-    min-width: 8em;
+{   min-width: fit-content;
     font-size: 2.3em;
     border: 2.5px solid #5072A7;
     margin: 0.25em;
