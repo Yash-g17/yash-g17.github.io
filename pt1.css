@@ -10,16 +10,19 @@
 {  
     font-size: 60px;
     font-weight: 600;
+    color: #99adc1;
 }
 
 #grad h2
 {   
     font-size: 40px;
     font-weight: 200;
+    color: #99adc1;
 }
 
 a.btn 
 {   
+    padding: 40px;
     min-width: 5em;
     font-size: 4em;
     border: 2.5px solid #001e3d;
