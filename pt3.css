@@ -81,3 +81,20 @@ a.btn:hover{
     text-decoration: none;
     color: #F0F8FF;
 }
+
+.card-body{
+    background-color: #003366;
+    
+}
+
+.btn-primary{
+    margin: 20px;
+    background-color: #5072A7;
+    border: 2px solid #001e3d;
+    
+}
+
+.noteCard{
+    background-color: #5072A7;
+}
+
