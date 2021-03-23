@@ -54,7 +54,7 @@
 #boot h1
 {
     font-family: 'raleway';
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;   
 }
 
@@ -87,5 +87,6 @@ a.btn:hover
     color: white;
     text-decoration: none;
     padding: 20px;
+    font-size: 20px;
 
 }
