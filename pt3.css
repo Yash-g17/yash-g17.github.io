@@ -21,13 +21,16 @@
 .navbar-toggler-icon{
     font-size: 20px;
     color: #F0F8FF;
-    background: color #003366;
+    background: transparent;
+    padding: 20px;
+
 }
 
 .nav-item{
     display: inline-block;
     margin: 10px;
     margin: 0 5px;
+    padding: 20px;
     
 }
 
@@ -41,10 +44,10 @@
 }
 
 .nav-link:hover{
-    background: #003366;
+    background: transparent;
     border: none;
     color: #001e3d;
-    box-shadow: 5px 5px 10px #001e3d;
+    box-shadow: 10px 10px 20px #001e3d;
     transition: 0.3s;
 }
 
