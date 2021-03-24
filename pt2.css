@@ -1,3 +1,11 @@
+body{
+    overflow-x: hidden;
+
+}
+
+
+
+
 #override3
 {
     background: linear-gradient(to bottom, #002244 0%, #5072A7 100%);
@@ -21,7 +29,7 @@
 }
 
 a.btn 
-{   min-width: fit-content;
+{   min-width: 70%;
     font-size: 2.3em;
     border: 2.5px solid #5072A7;
     margin: 0.25em;
