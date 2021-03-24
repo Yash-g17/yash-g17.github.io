@@ -64,6 +64,7 @@ const addNote = function (e) {
 
 	notes[COURSE].push(note);
 	storeNotesObj(notes);
+	noteForm.reset();
 };
 
 /* 
