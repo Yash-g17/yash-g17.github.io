@@ -1,1 +1,1 @@
-1000 px thing needs resolution
+1000 px thing needs resolution......................Fixed

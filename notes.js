@@ -4,9 +4,7 @@
 		"<course_name>": [
 			{
 				"key": ,
-				"title": ,
-				"date": ,
-				"time":
+				"desc":
 			},
 		],	
 	}
@@ -28,7 +26,7 @@ const BASE_OBJ = {
 	PHYF110: [],
 	CHEMF110: [],
 	BIOF110: [],
-	MEF110: []
+	MEF112: []
 };
 
 /* 
@@ -87,8 +85,7 @@ const removeNote = function (e) {
 	Refreshes the notesDisplay by:
 	1. Clearing it.
 	2. Generating the html for each of the notes present in the appropriate course of the notes object. 
-	3. Checks if notes are due.
-	4. Adds click listeners to the delete-note buttons of each note.
+	3. Adds click listeners to the delete-note buttons of each note.
 */
 const refreshNotesDisplay = () => {
 	const courseNotes = getNotesObj()[COURSE];
