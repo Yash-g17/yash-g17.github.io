@@ -68,6 +68,7 @@ const addReminder = function (e) {
 
 	reminders[COURSE].push(reminder);
 	storeRemindersObj(reminders);
+	reminderForm.reset();
 };
 
 /* 
