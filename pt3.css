@@ -181,6 +181,13 @@ input{
     border: none;
 }
 
+#reminder-form {
+	padding-bottom: 1em;
+}
+
+.reminder-due {
+	background-color: #391111;
+}
 
 .card-shape{
     min-width: 2em;

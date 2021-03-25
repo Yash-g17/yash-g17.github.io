@@ -97,8 +97,7 @@ const areRemindersDue = () => {
 
 	courseReminders.forEach((reminder) => {
 		if (Date.now() >= Date.parse(`${reminder.date} ${reminder.time}`)) {
-			// TODO: Add class that makes reminder go red.
-			// document.getElementById(reminder.key).classList.add("");
+			document.getElementById(reminder.key).classList.add("reminder-due");
 		}
 	});
 };
