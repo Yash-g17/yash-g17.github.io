@@ -1,5 +1,6 @@
 
  #demo1 a:link {
+    
     text-decoration: none;
   }
 
@@ -112,6 +113,7 @@
     font-family: 'raleway';
     font-size: 40px;
     font-weight: 350;
+    
 }
 
 a.btn {
@@ -210,3 +212,4 @@ input{
 {
 	background-color: white;
 }
+

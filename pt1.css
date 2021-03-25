@@ -38,3 +38,22 @@ a.btn:hover
     box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.308);
     transition: 0.3s;
 }
+
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #2C292C;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: white;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: white;
+}
+
