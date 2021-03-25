@@ -160,6 +160,12 @@ a.btn:hover{
     transition: 0.3s;
 }
 
+
+.card-body{
+    background-color: #002244;
+}
+
+
 .noteCard{
     background-color: #5072A7;
 }
