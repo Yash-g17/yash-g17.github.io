@@ -4,7 +4,7 @@
   }
 
 #demo1 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
 
@@ -13,7 +13,7 @@
   }
 
 #demo2 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   #demo3 a:link {
@@ -21,7 +21,7 @@
   }
 
 #demo3 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   #demo4 a:link {
@@ -29,7 +29,7 @@
   }
 
 #demo4 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   #demo5 a:link {
@@ -37,7 +37,7 @@
   }
 
 #demo5 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   
@@ -147,7 +147,7 @@ a.btn:hover{
     padding: 15px;
     font-size: 15px;
     
-    border: 1.5px solid white;
+    border: 1px solid #383438;
     
     background-color: transparent;
     color: white;
@@ -157,7 +157,7 @@ a.btn:hover{
     background: transparent;
     border: none;
     color:white;
-    box-shadow: 10px 10px 20px ;
+    box-shadow: 5px 5px 10px #383438;
     transition: 0.3s;
 }
 
@@ -165,13 +165,21 @@ a.btn:hover{
 
 .card-body{
     background-color: #111111;
-    border: none !important;
 }
 
 
 .noteCard{
     background-color: #1b1b1b;
 }
+
+input{
+    border: none;
+}
+
+.form-control{
+    border: none;
+}
+
 
 .card-shape{
     min-width: 2em;
