@@ -1,3 +1,48 @@
+
+ #demo1 a:link {
+    text-decoration: none;
+  }
+
+#demo1 a:hover {
+    text-decoration: underline;
+  }
+  
+
+  #demo2 a:link {
+    text-decoration: none;
+  }
+
+#demo2 a:hover {
+    text-decoration: underline;
+  }
+  
+  #demo3 a:link {
+    text-decoration: none;
+  }
+
+#demo3 a:hover {
+    text-decoration: underline;
+  }
+  
+  #demo4 a:link {
+    text-decoration: none;
+  }
+
+#demo4 a:hover {
+    text-decoration: underline;
+  }
+  
+  #demo5 a:link {
+    text-decoration: none;
+  }
+
+#demo5 a:hover {
+    text-decoration: underline;
+  }
+  
+  
+
+
 #boot
 {
     background: linear-gradient(to bottom, #002244 0%, #5072A7 100%);
@@ -59,9 +104,11 @@
 }
 
 
+
+
 #boot h2{
     font-family: 'raleway';
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 350;
 }
 
@@ -89,8 +136,9 @@ a.btn:hover{
 }
 
 .card-body{
-    background: #002244;
+    background-color:darkgray;
     min-width: 15em;
+    font-weight: 500;
     
 }
 
@@ -108,7 +156,7 @@ a.btn:hover{
     background: transparent;
     border: none;
     color:#F0F8FF;
-    box-shadow: 10px 10px 20px #002244;
+    box-shadow: 10px 10px 20px ;
     transition: 0.3s;
 }
 
