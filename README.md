@@ -1,1 +1,1 @@
-1000 px thing needs resolution......................Fixed
+change ui of reminders and notes
