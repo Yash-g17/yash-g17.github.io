@@ -120,7 +120,7 @@ const refreshRemindersDisplay = () => {
 				<div class="card-body" id="${reminder.key}">
 					<h3	class="card-text">${reminder.title}</h3>
 					<p class="card-text">Due on <strong>${reminder.date}</strong> at <strong>${reminder.time}</strong>.</p>
-					<button class="btn btn-secondary note-delete">Delete</button>
+					<button class="btn btn-secondary reminder-delete">Delete</button>
 				</div>
 			</div>
 		`;
