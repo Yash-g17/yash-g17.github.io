@@ -45,9 +45,9 @@
 
 #boot
 {
-    background: linear-gradient(to bottom, #002244 0%, #5072A7 100%);
+    background: #1b1b1b;
     font-family: 'raleway';
-    color: #F0F8FF;
+    color: white;
     background-attachment: fixed;
 }
 .clean{
@@ -55,17 +55,18 @@
 }
 .navbar{
     position: relative;   
+    background-color: #111111;
 }
 
 .navbar-brand{
-    color: #F0F8FF;
+    color: white;
     font-weight: bold;
 }
 
 
 .navbar-toggler-icon{
     font-size: 20px;
-    color: #F0F8FF;
+    color: white;
     background: transparent;
     padding: 20px;
 
@@ -80,7 +81,7 @@
 }
 
 .nav-link{
-    color: #F0F8FF;
+    color: white;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -91,8 +92,8 @@
 .nav-link:hover{
     background: transparent;
     border: none;
-    color: #001e3d;
-    box-shadow: 10px 10px 20px #001e3d;
+    color: #1b1b1b;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.308);
     transition: 0.3s;
 }
 
@@ -118,13 +119,13 @@ a.btn {
    
     font-size: 30px;
     border: 2.5px solid #5072A7;
-    color: #F0F8FF;
+    color: white;
 }
 
 a.btn:hover{
     background: transparent;
     border: none;
-    color:#F0F8FF;
+    color:white;
     box-shadow: 10px 10px 20px #002244;
     transition: 0.3s;
 }
@@ -132,7 +133,7 @@ a.btn:hover{
 .universal-text{
     font-size: 20px;
     text-decoration: none;
-    color: #F0F8FF;
+    color: white;
 }
 
 .card-body{
@@ -146,28 +147,30 @@ a.btn:hover{
     padding: 15px;
     font-size: 15px;
     
-    border: 1.5px solid #F0F8FF;
+    border: 1.5px solid white;
     
     background-color: transparent;
-    color: #F0F8FF;
+    color: white;
     
 }
 .btn-secondary:hover{
     background: transparent;
     border: none;
-    color:#F0F8FF;
+    color:white;
     box-shadow: 10px 10px 20px ;
     transition: 0.3s;
 }
 
 
+
 .card-body{
-    background-color: #002244;
+    background-color: #111111;
+    border: none !important;
 }
 
 
 .noteCard{
-    background-color: #5072A7;
+    background-color: #1b1b1b;
 }
 
 .card-shape{
@@ -177,13 +180,13 @@ a.btn:hover{
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F0F8FF;
+	background-color: white;
 }
 
 ::-webkit-scrollbar
 {
 	width: 6px;
-	background-color: #F0F8FF;
+	background-color: white;
 }
 
 ::-webkit-scrollbar-thumb
