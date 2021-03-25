@@ -156,10 +156,10 @@ a.btn:hover{
     
 }
 .btn-secondary:hover{
-    background: transparent;
+    background: #002244;
     border: none;
     color:white;
-    box-shadow: 5px 5px 10px #383438;
+    box-shadow: 5px 5px 10px #1b1b1b;
     transition: 0.3s;
 }
 
