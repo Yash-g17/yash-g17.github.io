@@ -116,10 +116,12 @@ const refreshRemindersDisplay = () => {
 
 	courseReminders.forEach((reminder) => {
 		const reminderHTML = `
-			<div id="${reminder.key}">
-				<h5>${reminder.title}</h5>
-				<p>Due on ${reminder.date} at ${reminder.time}</p>
-				<button class="reminder-delete">Delete</button>
+			<div class="noteCard my-2 mx-2 card" style="width: 18rem;">
+				<div class="card-body" id="${reminder.key}">
+					<h3	class="card-text">${reminder.title}</h3>
+					<p class="card-text">Due on <strong>${reminder.date}</strong> at <strong>${reminder.time}</strong>.</p>
+					<button class="btn btn-secondary note-delete">Delete</button>
+				</div>
 			</div>
 		`;
 		remindersDisplay.innerHTML += reminderHTML;
