@@ -92,9 +92,10 @@
 .nav-link:hover{
     background: transparent;
     border: none;
-    color: #1b1b1b;
-    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.308);
+    color: #002244;
+    box-shadow: 10px 10px 20px #111111;
     transition: 0.3s;
+    background: #002244;
 }
 
 #boot h1{
