@@ -23,7 +23,8 @@
 a.btn 
 {   
     padding: 30px;
-    min-width: 60%;
+    min-width: 50%;
+    
     font-size: 4em;
     border: 1.5px solid white;
     margin:0.25em;
