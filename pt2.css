@@ -35,10 +35,10 @@ a.btn
 
 a.btn:hover
 {
-    background: transparent;
+    background: #002244;
     border: none;
     color:white;
-    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.308);
+    box-shadow: 10px 10px 20px #111111;
     transition: 0.3s;
 }
 
