@@ -25,19 +25,9 @@ body{
     color: white;
 }
 
-.navbar{
-    position: relative;   
-    background-color: #111111;
-    text-align: center;
-}
-
-.navbar-brand{
-    color: white;
-    font-weight: bold;
-}
 
 a.btn 
-{   min-width: 90%;
+{   min-width: 100%;
     font-size: 2.3em;
     border: 1px solid white;
     
