@@ -59,3 +59,27 @@ a.btn:hover
 {
 	background-color: white;
 }
+
+
+.footer {
+   
+   
+   bottom: 0;
+   width: 100%;
+
+   color: white;
+   text-align: center;
+
+   
+    position: absolute;
+    left: 0;
+   
+   margin-top: -20px;
+    overflow: hidden;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
