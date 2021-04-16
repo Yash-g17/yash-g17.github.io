@@ -62,3 +62,23 @@ a.btn:hover
 	background-color: white;
 }
 
+
+html 
+{
+    position: relative;
+    min-height: 100%;
+}
+body 
+{
+    margin-bottom: 60px; /* should be same as footer height */
+}
+  .footer 
+  {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 17px; 
+    
+  }
+  
