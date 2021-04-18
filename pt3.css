@@ -234,3 +234,51 @@ body
     
   }
   
+#handout a{
+    color: white;
+}
+
+#handout a:hover{
+    color: #0275d8;
+}
+
+#textbook a{
+    color: white;
+}
+
+#textbook a:hover{
+    color: #0275d8;
+}
+
+#lectures a{
+    color: white;
+}
+
+#lectures a:hover{
+    color: #0275d8;
+}
+
+#meet a{
+    color: white;
+}
+
+#meet a:hover{
+    color: #0275d8;
+}
+
+#pyqs a{
+    color: white;
+}
+
+#pyqs a:hover{
+    color: #0275d8;
+}
+
+.linkmod a
+{
+    color:white;
+}
+
+.linkmod a:hover{
+    color:#0275d8
+}
