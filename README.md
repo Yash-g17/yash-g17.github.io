@@ -1,6 +1,6 @@
 # Caboodle
 
-A collection of 1-2 course material for BPGC firsties, with the ability to add custom reminders and notes!
+A collection of 1-2 course material for BPGC firsties, with the ability to add custom reminders and notes.!
 
 ## Made with ♥ by:
 - [ashmitkx](https://github.com/ashmitkx)
